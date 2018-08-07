@@ -39,8 +39,9 @@ trimString(str) If the input string is null, undefined returns empty string. str
 npm install simple-short-pretty
 
 ## Example
-`const SSP = require(simple-short-pretty);`   
+`const SSP = require('simple-short-pretty');`   
 `if(SSP.isFuntion(somepossiblefunctionhere))...`   
 
 ## Test
-npm test to run tests.
+run tests...   
+`npm test`   
