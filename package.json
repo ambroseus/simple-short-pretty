@@ -1,0 +1,28 @@
+{
+  "name": "simple-short-pretty",
+  "version": "1.0.1",
+  "description": "Simplier, shorter, prettier NodeJS code, that is the goal of this library.",
+  "license": "MIT",
+  "main": "index.js",
+  "keywords": [
+    "style",
+    "simple",
+    "short",
+    "pretty",
+    "core"
+  ],
+  "authors": [
+    "Sean Murray"
+  ],
+  "scripts": {
+    "test": "node test/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tobedetermined"
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+  }
+}
