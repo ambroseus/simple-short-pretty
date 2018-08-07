@@ -3,8 +3,9 @@
 Simplier, shorter, prettier NodeJS code, that is the goal of this library. You can now write code like:
 `if(isNumber(xxx))`
 ... or
-`while(isNotNull(obj))`
-...it's well simplier, shorter, prettier.
+`while(isNotNil(obj))`
+...it's well simplier, shorter, prettier.   
+Note, Nil is anything that is undefined or null inclusive.   
 
 ## Usage
 cat(str1, str2 ... strN) joins the strings to one line with spaces btw. It will try and convert non string items to strings, this should work for primatives and non recursive objects.    
@@ -15,17 +16,17 @@ isBoolean(obj) false if undefined or null or not a boolean.
 isDefined(obj) True if defined, including if value is null.    
 isEmptyString(str) Returns true if input string is: UNdefined or NULL or empty string ''.    
 isFunction (obj) if the input is a function returns true, undefined/null returns false.    
+isNil(obj) True if undefined or null.    
 isNotArray true if undefined or null or not an array.    
 isNotBlankString(str) Returns true if input string is defined, no NULL and has 1 or more non tab/space characters.    
 isNotBoolean(obj) true if undefined or null or not a boolean.    
 isNotDefined(obj) True if undefined.    
 isNotEmtpyString(str) Returns true if input string has 1 or more characters even if those characters are all spaces tabs etc.    
 isNotFunction (obj) if the input is a function returns false, undefined/null returns true.    
-isNotNull(obj) False if undefined or null.    
+isNotNil(obj) False if undefined or null.    
 isNotNumber(obj) true if undefined or null or not a number.    
 isNotObject true if undefined or null or not an object.    
 isNotString true if undefined or null or not a string.    
-isNull(obj) True if undefined or null.    
 isNumber(obj) false if undefined or null or not a number.    
 isObject(obj) false if undefined or null or not an object.    
 isString false if undefined or null or not a string.    
