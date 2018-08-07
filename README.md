@@ -1,6 +1,6 @@
 ## Description
 
-Simplier, shorter, prettier NodeJS code, that is the goal of this library. You can now wriet code like: if(isNumber(xxx))... or while(isNotNull(obj))... it's well simplier, shorter, prettier.
+Simplier, shorter, prettier NodeJS code, that is the goal of this library. You can now write code like: if(isNumber(xxx))... or while(isNotNull(obj))... it's well simplier, shorter, prettier.
 
 ## Usage
 cat(str1, str2 ... strN) joins the strings to one line with spaces btw. It will try and convert non string items to strings, this should work for primatives and non recursive objects.
