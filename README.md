@@ -34,5 +34,12 @@ toNumber(str) convert the string passed in to a number. If a number is passed in
 toString(obj, default) turn an object in to a string. If the input object is undefined, null or fails to convert then the default value is returned.    
 trimString(str) If the input string is null, undefined returns empty string. string is clean of any space/return/control characters at the begining and/or end of the string.    
 
+## Install
+npm install simple-short-pretty
+
+## Example
+`const SSP = require(simple-short-pretty);`
+`if(isFuntion(somepossiblefunctionhere))...`
+
 ## Test
 npm test to run tests.
